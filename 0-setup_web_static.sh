@@ -7,7 +7,7 @@ sudo mkdir -p /data
 sudo mkdir -p /data//web_static/
 sudo mkdir -p /data/web_static/releases/test/
 sudo mkdir -p /data/web_static/shared/
-sudo echo "Holberton School it's AirBnB" > /data/web_static/releases/test/index.html
+sudo echo "Holberton School it's AirBnB" | sudo tee /data/web_static/releases/test/index.html
 sudo ln -sf data/web_static/releases/test/ data/web_static/current
 sudo chown -R ubuntu:ubuntu /data/
 printf %s "server {
