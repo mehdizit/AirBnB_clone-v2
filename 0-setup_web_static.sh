@@ -8,7 +8,7 @@ sudo mkdir -p /data//web_static/
 sudo mkdir -p /data/web_static/releases/test/
 sudo mkdir -p /data/web_static/shared/
 sudo echo "Holberton School it's AirBnB" | sudo tee /data/web_static/releases/test/index.html
-sudo ln -sf data/web_static/releases/test/ data/web_static/current
+sudo ln -sf /data/web_static/releases/test /data/web_static/current
 sudo chown ubuntu:ubuntu -hR /data/
 printf %s "server {
     listen 80 default_server;
