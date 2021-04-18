@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# distributes an archive to a web servers, using the function do_deploy
+"""distributes an archive to a web servers, using the function do_deploy"""
 
 from fabric.api import local, run, put, env
 import time
