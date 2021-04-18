@@ -10,6 +10,7 @@ env.hosts = ['35.190.130.61', '34.75.80.235']
 
 
 def do_deploy(archive_path):
+    """deploy archive"""
 
     if not archive_path:
         return(False)
