@@ -17,7 +17,7 @@ def hbnb():
     """display hbnb"""
     return "“HBNB”"
 
-@app.route('/c/<string:text>')
+@app.route('/c/<string:text>', strict_slashes=False)
 
 def c_is_fun(text):
     """displat c is fun"""
